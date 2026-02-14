@@ -1,4 +1,4 @@
-const API_URL = 'https://wa9il-hada-akher-version.onrender.com';
+const API_URL = 'https://wa9il-hada-akher-version.onrender.com/api';
 
 // --- Initialization ---
 document.addEventListener('DOMContentLoaded', () => {
@@ -417,6 +417,7 @@ async function loadOrders() {
 // --- Modal Helpers ---
 function openModal(id) { document.getElementById(id).style.display = 'flex'; }
 function closeModal(id) { document.getElementById(id).style.display = 'none'; }
+
 
 
 
